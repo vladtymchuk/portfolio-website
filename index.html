@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini-game</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>-->
+
+</head>
+<body>
+    <header class="header-container">
+        <h1 class="logo animate__animated animate__flash">MINI GAME</h1>
+        <nav class="header-nav">
+            <a href="#about-me">About me</a>
+            <a href="#game">Fisher Simulator</a>
+            <a href="#gallery">Gallery</a>
+        </nav>
+    </header>
+    <main class="main-container">
+        <article data-aos="flip-down"
+                 class="about-me" id="about-me"
+        >
+
+            <h2>
+                About me:
+            </h2>
+            <div class="info">
+                <h3>Vladyslav Tymchuk</h3>
+                <aside>21 years old</aside>
+                <p class="about-me-text">
+                    Dedicated React Native developer with two years of hands-on mobile app development experience. I am dedicated to creating flawless, user-friendly and visually appealing cross-platform apps.
+                </p>
+            </div>
+        </article>
+        <article  data-aos="flip-down" class="mini-game" id="game">
+            <h2>
+                Fisher Simulator:
+            </h2>
+            <div class="info">
+                <p>I'm really like fishing, so I add to this page funny fisher simulator</p>
+                <p>In "Fisher Simulator," you become the master of your own fishing destiny. Set against stunning, picturesque landscapes, you'll have the opportunity to explore a variety of fishing spots, from serene lakes to raging rivers. The game offers a realistic fishing experience, allowing you to choose your gear, bait, and fishing techniques.</p>
+                <p>Whether you're a seasoned angler or new to fishing, "Fisher Simulator" offers a serene escape to the great outdoors without leaving your home. It's the perfect way to unwind, challenge your fishing skills, and enjoy the calming effects of water and nature.
+
+                    Dive into the world of "Fisher Simulator" and embark on a fishing adventure like no other. Catch the big one, explore picturesque waters, and become the ultimate angling legend.</p>
+<!--                <img src="fishing_screen.png" alt="fishing game screen" />-->
+            </div>
+        </article>
+        <article data-aos="flip-down" class="gallery" id="gallery">
+            <h2>
+                Gallery
+            </h2>
+            <img src="fishing_screen.png" alt="fishing_screen">
+        </article>
+    </main>
+    <footer class="footer-container">
+        <p> &copy; Vlad Tymchuk 2023 </p>
+    </footer>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

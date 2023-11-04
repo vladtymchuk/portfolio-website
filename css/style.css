@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: "Press Start 2P", sans-serif;
+
+    background-color: black;
+    color: chartreuse;
+
+}
+
+.header-container {
+    height: 100px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid chartreuse;
+    padding-left: 100px;
+
+}
+.header-nav {
+    width: 80%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav a {
+    width: 25%;
+    text-align: center;
+
+    text-decoration: underline;
+    color: chartreuse;
+}
+.header-container .logo {
+    width: 20%;
+    font-family: "Press Start 2P", sans-serif;
+    color: chartreuse;
+}
+
+.main-container {
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.main-container .about-me {
+    height: 50vh;
+    padding: 100px;
+
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-evenly;*/
+    align-items: flex-start;
+
+    border-bottom: 1px solid chartreuse;
+}
+
+.main-container .mini-game {
+    height: 50vh;
+    padding: 100px;
+
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-evenly;*/
+    align-items: flex-start;
+
+    border-bottom: 1px solid chartreuse;
+}
+.main-container .mini-game .info {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-container .mini-game .info p {
+    text-align: center;
+}
+
+.main-container .mini-game .info img {
+    height: 80%;
+
+}
+
+.main-container .about-me .info {
+    text-align: right;
+
+    height: 60%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    border: 1px solid chartreuse;
+}
+
+.main-container .about-me .info .about-me-text {
+    width: 50%;
+    text-align: center;
+    align-self: center;
+}
+
+.main-container .gallery {
+    height: 50vh;
+    padding: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-container .gallery h2 {
+    text-align: center;
+}
+
+.main-container .gallery img {
+    border: 16px solid chartreuse;
+    height: 60%;
+    width: auto;
+}
+
+.footer-container {}
